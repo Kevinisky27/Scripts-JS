@@ -6,6 +6,8 @@ const ScoreStyled = styled.div`
   text-align: center;
   padding: 10px 0;
   border-radius: 8px;
+  width: 80px; 
+  font-weight: bold;
   small{
     color: #2A45C2;
     text-transform: uppercase;
@@ -18,6 +20,8 @@ const ScoreStyled = styled.div`
     margin: 0;
     font-weight: 700;
     letter-spacing: -3px;
+    position: relative; 
+    left: -2.5px;
   }
 
 `
