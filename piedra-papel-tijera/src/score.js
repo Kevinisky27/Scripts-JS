@@ -22,7 +22,7 @@ const ScoreStyled = styled.div`
 
 `
 
-function Score(){
+function Score(){ 
   return (
     <ScoreStyled>
       <small>Score</small>
